@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Morpion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score-board">
+        <div id="score-x">X: 0</div>
+        <div id="score-o">O: 0</div>
+        <div id="turn">C'est au tour de X</div>
+    </div>
+    <div class="buttons">
+        <button class="game-button" id="btn-0" onclick="playMove(0)"></button>
+        <button class="game-button" id="btn-1" onclick="playMove(1)"></button>
+        <button class="game-button" id="btn-2" onclick="playMove(2)"></button>
+        <button class="game-button" id="btn-3" onclick="playMove(3)"></button>
+        <button class="game-button" id="btn-4" onclick="playMove(4)"></button>
+        <button class="game-button" id="btn-5" onclick="playMove(5)"></button>
+        <button class="game-button" id="btn-6" onclick="playMove(6)"></button>
+        <button class="game-button" id="btn-7" onclick="playMove(7)"></button>
+        <button class="game-button" id="btn-8" onclick="playMove(8)"></button>
+    </div>
+    <button id="restart" onclick="resetGame()">Recommencer</button>
+    <script src="script.js"></script>
+</body>
+</html>
